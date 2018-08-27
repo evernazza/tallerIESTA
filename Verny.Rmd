@@ -1,0 +1,21 @@
+---
+title: "PrimerRmd"
+author: "Verny"
+date: "27 de agosto de 2018"
+output: html_document
+---
+
+## SIMULAR DATOS
+
+```{r, echo = TRUE}
+N = rpois(1,90)
+x = runif(N,0,1)
+y = runif(N,0,1)
+d = data.frame(x=x,y=y)
+```
+
+```{r setup21, echo = TRUE}
+library(knitr)
+kable(summary(d))
+```
+
