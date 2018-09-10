@@ -1,0 +1,30 @@
+---
+title: "Tarea"
+author: "Verny"
+date: "10 de septiembre de 2018"
+output: pdf_document
+---
+
+## Introducción
+El link a mi repositorio personal en Github conteniendo los archivos necesarios para reproducir este (mini) reporte es:
+  
+
+
+## Simulaciones y tablas
+
+## Figura
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
